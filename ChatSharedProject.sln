@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ChatSharedProject", "ChatSharedProject\ChatSharedProject.shproj", "{1CEB61AD-9C38-4188-9DBF-0B79C58BCDD2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatConsoleApp", "ChatConsoleApp\ChatConsoleApp.csproj", "{0850CA93-9BB4-4275-9D9C-86FD7B946B84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0850CA93-9BB4-4275-9D9C-86FD7B946B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0850CA93-9BB4-4275-9D9C-86FD7B946B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0850CA93-9BB4-4275-9D9C-86FD7B946B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0850CA93-9BB4-4275-9D9C-86FD7B946B84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {611848F6-7DF8-4DCF-9FA9-3D71070B4E56}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ChatSharedProject\ChatSharedProject.projitems*{0850ca93-9bb4-4275-9d9c-86fd7b946b84}*SharedItemsImports = 5
+		ChatSharedProject\ChatSharedProject.projitems*{1ceb61ad-9c38-4188-9dbf-0b79c58bcdd2}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
